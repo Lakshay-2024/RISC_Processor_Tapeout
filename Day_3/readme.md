@@ -42,28 +42,24 @@ Screenshot of commands run
 
 Screenshot of custom inverter layout in magic
 
-![Screenshot from 2024-03-19 00-22-44](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/6eae887c-ebc6-4771-8bcc-e4edaf9947d9)
+![Screenshot from 2024-03-19 00-22-44](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/inverter_mag.png)
 
 NMOS and PMOS identified
 
-![Screenshot from 2024-03-19 00-28-03](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/eada5c8b-154c-4eea-819c-d49f89495acb)
-![Screenshot from 2024-03-19 00-29-14](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/dec7e465-8fd0-45d5-bac6-10de1acb8c76)
+![Screenshot from 2024-03-19 00-28-03](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/pmos.png)
+![Screenshot from 2024-03-19 00-29-14](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/nmos.png)
 
 Output Y connectivity to PMOS and NMOS drain verified
 
-![Screenshot from 2024-03-19 00-31-17](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/e16fb883-907e-437a-b8d8-1b9d1b2e67a6)
+![Screenshot from 2024-03-19 00-31-17](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/output.png)
 
 PMOS source connectivity to VDD (here VPWR) verified
 
-![Screenshot from 2024-03-19 00-34-11](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/173efda1-d5d1-49d9-a040-771092b1e55b)
+![Screenshot from 2024-03-19 00-34-11](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/vdd.png)
 
 NMOS source connectivity to VSS (here VGND) verified
 
-![Screenshot from 2024-03-19 00-36-09](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/107a8e0b-43de-4b5d-90fe-516ea83673b1)
-
-Deleting necessary layout part to see DRC error
-
-![Screenshot from 2024-03-19 01-10-28](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/861912e4-eef9-4226-b563-db7f49ca6632)
+![Screenshot from 2024-03-19 00-36-09](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/vgnd.png)
 
 ### 3. Spice extraction of inverter in magic.
 
@@ -85,7 +81,7 @@ ext2spice
 
 Screenshot of tkcon window after running above commands
 
-![Screenshot from 2024-03-19 01-24-17](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/831b0be9-3c02-4bbb-800e-6f1c3dc1ba1a)
+![Screenshot from 2024-03-19 01-24-17](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/process.png)
 
 Screenshot of created spice file
 
