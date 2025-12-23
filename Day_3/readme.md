@@ -229,7 +229,7 @@ Screenshots of commands run
 
 Screenshot of poly rules
 
-![Screenshot from 2024-03-21 22-54-49](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/ploy_rules.png)
+![Screenshot from 2024-03-21 22-54-49](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/poly_rules.png)
 
 Incorrectly implemented poly.9 rule no drc violation even though spacing < 0.48u
 
@@ -261,15 +261,11 @@ Screenshot of magic window with rule implemented
 
 Screenshot of difftap rules
 
-![Screenshot from 2024-03-22 00-14-47](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/086b7a66-b60a-470a-b5c0-a5ac938ebec3)
-
-Incorrectly implemented difftap.2 rule no drc violation even though spacing < 0.42u
-
-![Screenshot from 2024-03-22 00-14-36](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/a2d0d739-2df5-4eb5-ab78-c80d366e24e4)
+![Screenshot from 2024-03-22 00-14-47](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/dff_rules.png)
 
 New commands inserted in sky130A.tech file to update drc
 
-![Screenshot from 2024-03-22 00-26-43](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/b5892f9b-9c5d-4b1b-baa2-6fe45f3965b1)
+![Screenshot from 2024-03-22 00-26-43](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/dff_tap_correction.png)
 
 Commands to run in tkcon window
 
@@ -286,22 +282,19 @@ drc why
 
 Screenshot of magic window with rule implemented
 
-![Screenshot from 2024-03-22 00-29-22](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/a3f92160-6701-48fb-b6cf-e4c41dc4a531)
+![Screenshot from 2024-03-22 00-29-22](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/dff_tap_error.png)
 
 **Incorrectly implemented nwell.4 complex rule correction**
 
 Screenshot of nwell rules
 
-![Screenshot from 2024-03-22 00-51-34](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/4ad4901d-0b9a-4339-89e3-7bb3fce2766d)
+![Screenshot from 2024-03-22 00-51-34](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/nwell_rules.png)
 
 Incorrectly implemented nwell.4 rule no drc violation even though no tap present in nwell
 
-![Screenshot from 2024-03-22 00-52-51](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/87da8944-0ad8-455d-97ec-3909eac656c3)
+![Screenshot from 2024-03-22 00-52-51](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/nwell_correct.png)
 
-New commands inserted in sky130A.tech file to update drc
 
-![Screenshot from 2024-03-22 01-03-42](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/886c6930-6314-4a6f-97d9-6b8423444ac0)
-![Screenshot from 2024-03-22 01-04-04](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/d9808e9a-42c2-4421-9b82-2ef65a5a1ad7)
 
 Commands to run in tkcon window
 
@@ -321,4 +314,4 @@ drc why
 
 Screenshot of magic window with rule implemented
 
-![Screenshot from 2024-03-22 01-10-25](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/49b1004d-f860-4ca7-86f4-4d79784a01cf)
+![Screenshot from 2024-03-22 01-10-25](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/nwell_error.png)
