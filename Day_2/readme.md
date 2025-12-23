@@ -50,14 +50,13 @@ run_floorplan
 
 Screenshot of floorplan run
 
-![Screenshot from 2024-03-17 18-06-19](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/7deda325-2ae8-4e98-aa71-7a54f5c34fcb)
-![Screenshot from 2024-03-17 18-06-36](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/c1fe538f-c58f-46b9-9466-b0873a88eb6c)
+![Screenshot from 2024-03-17 18-06-19](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_2/images/run_floorplan_commands.png)
 
 #### 2. Calculate the die area in microns from the values in floorplan def.
 
 Screenshot of contents of floorplan def
 
-![Screenshot from 2024-03-17 18-34-53](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/9a0baa93-7db6-4148-b155-49b18c130522)
+![Screenshot from 2024-03-17 18-34-53](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_2/images/flooorplan_def_file.png)
 
 According to floorplan def
 ```math
@@ -96,28 +95,28 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 
 Screenshots of floorplan def in magic
 
-![Screenshot from 2024-03-17 18-05-19](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/93af15d9-ba65-49d4-8e98-ad1d0c4b0097)
+![Screenshot from 2024-03-17 18-05-19](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_2/images/floorplan_magic.png)
 
 Equidistant placement of ports
 
-![Screenshot from 2024-03-17 18-14-28](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/6183e357-315c-40df-9bc3-e7993d76b19c)
+![Screenshot from 2024-03-17 18-14-28](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_2/images/pin_placement.png)
 
 Port layer as set through config.tcl
 
-![Screenshot from 2024-03-17 18-17-46](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/4e35528c-1bb1-4eaa-84be-14a95e532b75)
-![Screenshot from 2024-03-17 18-19-50](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/a88afbbd-6d63-4ce5-a1ec-620dd8c37f45)
+![Screenshot from 2024-03-17 18-17-46](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_2/images/port_layer.png)
+![Screenshot from 2024-03-17 18-19-50](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_2/images/port_layer2.png)
 
 Decap Cells and Tap Cells
 
-![Screenshot from 2024-03-17 18-22-57](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/c1714ed1-7cdd-4b3c-8e0b-e4f97270ef82)
+![Screenshot from 2024-03-17 18-22-57](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_2/images/decap_cells.png)
 
 Diogonally equidistant Tap cells
 
-![Screenshot from 2024-03-17 18-25-28](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/6f62f639-81cc-4e5d-8b5c-ea5b209125ba)
+![Screenshot from 2024-03-17 18-25-28](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_2/images/tap_cells.png)
 
 Unplaced standard cells at the origin
 
-![Screenshot from 2024-03-17 18-31-41](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/f875937c-cec4-4c2c-8c4b-6808d81821d6)
+![Screenshot from 2024-03-17 18-31-41](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_2/images/logic_in_corner.png)
 
 #### 4. Run 'picorv32a' design congestion aware placement using OpenLANE flow and generate necessary outputs.
 
@@ -130,8 +129,8 @@ run_placement
 
 Screenshots of placement run
 
-![Screenshot from 2024-03-17 22-44-17](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/3ddaf32e-fdbb-4410-bfe6-7ea6b2640438)
-![Screenshot from 2024-03-17 22-46-27](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/e6b36b9b-b9bc-4390-84fd-a10d23e2246f)
+![Screenshot from 2024-03-17 22-44-17](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_2/images/run_placement_command.png)
+
 
 #### 5. Load generated placement def in magic tool and explore the placement.
 
@@ -147,11 +146,11 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 
 Screenshots of floorplan def in magic
 
-![Screenshot from 2024-03-17 22-58-44](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/e703ef0b-3968-4132-a9c7-05b53f50b214)
+![Screenshot from 2024-03-17 22-58-44](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_2/images/placed_design.png)
 
 Standard cells legally placed 
 
-![Screenshot from 2024-03-17 23-04-20](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/54911138-f942-48b9-b4e9-61d741a4b5ac)
+![Screenshot from 2024-03-17 23-04-20](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_2/images/zoom_placement.png)
 
 Commands to exit from current run
 
