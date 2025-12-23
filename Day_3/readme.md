@@ -116,12 +116,11 @@ plot y vs time a
 
 Screenshots of ngspice run
 
-![Screenshot from 2024-03-19 14-56-42](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/c023ebb0-756f-4707-ae82-a28746f372da)
-![Screenshot from 2024-03-19 14-57-22](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/addefe5e-6a9a-44f2-943a-4a9373ddc56c)
+![Screenshot from 2024-03-19 14-56-42](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/ngspice_simulation_1.png)
 
 Screenshot of generated plot
 
-![Screenshot from 2024-03-19 14-58-55](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/dd14a5d5-ffd9-4ad8-a871-e32af61362a3)
+![Screenshot from 2024-03-19 14-58-55](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/ngspice_simulation_2.png)
 
 Rise transition time calculation
 
@@ -135,18 +134,11 @@ Rise\ transition\ time = Time\ taken\ for\ output\ to\ rise\ to\ 80\% - Time\ ta
 80\%\ of\ output = 2.64\ V
 ```
 
-20% Screenshots
+![Screenshot from 2024-03-19 15-15-02](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/rise_transition_time.png)
 
-![Screenshot from 2024-03-19 15-15-02](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/261c420f-219f-4c26-ae32-6c0db82a722e)
-![Screenshot from 2024-03-19 15-20-04](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/bbb078c4-b3aa-436b-8832-23e5d7777081)
-
-80% Screenshots
-
-![Screenshot from 2024-03-19 15-23-34](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/d10a0ff1-0523-4fe4-96f4-eefc63f647f7)
-![Screenshot from 2024-03-19 15-24-13](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/929042ad-2032-49aa-ae07-2a2163b9603e)
 
 ```math
-Rise\ transition\ time = 2.24638 - 2.18242 = 0.06396\ ns = 63.96\ ps
+Rise\ transition\ time = 6.24742 - 6.18256 = 0.06486\ ns = 64.86\ ps
 ```
 
 Fall transition time calculation
@@ -161,18 +153,11 @@ Fall\ transition\ time = Time\ taken\ for\ output\ to\ fall\ to\ 20\% - Time\ ta
 80\%\ of\ output = 2.64\ V
 ```
 
-20% Screenshots
 
-![Screenshot from 2024-03-19 15-34-22](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/0180052c-4b8c-4bd8-928c-cd8ab34d5a17)
-![Screenshot from 2024-03-19 15-34-34](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/83760cf7-18c9-45d1-8063-04baafe1dd1f)
-
-80% Screenshots
-
-![Screenshot from 2024-03-19 15-36-29](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/7bc0eeee-c7cd-464e-a90b-cac8d4f83144)
-![Screenshot from 2024-03-19 15-36-41](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/9a7dc3b0-9936-4704-97cd-1cd03cc6a8cb)
+![Screenshot from 2024-03-19 15-34-22](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/fall_transition_time.png)
 
 ```math
-Fall\ transition\ time = 4.0955 - 4.0536 = 0.0419\ ns = 41.9\ ps
+Fall\ transition\ time = 6.18026 - 6.12834 = 0.05192\ ns = 51.92\ ps
 ```
 
 Rise Cell Delay Calculation
@@ -184,13 +169,11 @@ Rise\ Cell\ Delay = Time\ taken\ for\ output\ to\ rise\ to\ 50\% - Time\ taken\ 
 50\%\ of\ 3.3\ V = 1.65\ V
 ```
 
-50% Screenshots
+![Screenshot from 2024-03-19 16-02-35](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/rise_cell_delay.png)
 
-![Screenshot from 2024-03-19 16-02-35](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/e34363cd-a70f-4939-b8e5-efb10620ce93)
-![Screenshot from 2024-03-19 16-03-46](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/f7452b60-3612-4bcf-a71d-b8ff021d5297)
 
 ```math
-Rise\ Cell\ Delay = 2.21144 - 2.15008 = 0.06136\ ns = 61.36\ ps
+Rise\ Cell\ Delay = 6.21146 - 6.15 = 0.06146\ ns = 61.46\ ps
 ```
 
 Fall Cell Delay Calculation
@@ -202,13 +185,11 @@ Fall\ Cell\ Delay = Time\ taken\ for\ output\ to\ fall\ to\ 50\% - Time\ taken\ 
 50\%\ of\ 3.3\ V = 1.65\ V
 ```
 
-50% Screenshots
+![Screenshot from 2024-03-19 16-09-08](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_3/images/fall_cell_delay.png)
 
-![Screenshot from 2024-03-19 16-09-08](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/3d2ff2e5-dab6-497a-b5a4-74959f69c2a2)
-![Screenshot from 2024-03-19 16-10-03](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/aa88c26b-0cc4-4cf7-80d7-b2058e8fbc47)
 
 ```math
-Fall\ Cell\ Delay = 4.07 - 4.05 = 0.02\ ns = 20\ ps
+Fall\ Cell\ Delay = 8.07844 - 8.05031 = 0.02813\ ns = 28.13\ ps
 ```
 
 ### 6. Find problem in the DRC section of the old magic tech file for the skywater process and fix them.
