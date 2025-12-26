@@ -561,7 +561,7 @@ Commands load the design and run necessary stages
 
 ```tcl
 # Now once again we have to prep design so as to update variables
-prep -design picorv32a -tag 24-03_10-03 -overwrite
+prep -design picorv32a 
 
 # Addiitional commands to include newly added lef to openlane flow merged.lef
 set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
@@ -605,10 +605,10 @@ Commands to be run in OpenLANE flow to do OpenROAD timing analysis with integrat
 openroad
 
 # Reading lef file
-read_lef /openLANE_flow/designs/picorv32a/runs/24-03_10-03/tmp/merged.lef
+read_lef /OpenLane/designs/picorv32a/runs/RUN_2025.12.26_13.02.52/tmp/merged.lef
 
 # Reading def file
-read_def /openLANE_flow/designs/picorv32a/runs/24-03_10-03/results/cts/picorv32a.cts.def
+read_def/OpenLane/designs/picorv32a/runs/RUN_2025.12.26_13.02.52/results/cts/picorv32a.cts.def
 
 # Creating an OpenROAD database to work with
 write_db pico_cts.db
@@ -617,7 +617,7 @@ write_db pico_cts.db
 read_db pico_cts.db
 
 # Read netlist post CTS
-read_verilog /openLANE_flow/designs/picorv32a/runs/24-03_10-03/results/synthesis/picorv32a.synthesis_cts.v
+read_verilog /OpenLane/designs/picorv32a/runs/RUN_2025.12.26_13.02.52/results/synthesis/picorv32a.synthesis_cts.v
 
 # Read library for design
 read_liberty $::env(LIB_SYNTH_COMPLETE)
@@ -644,10 +644,10 @@ exit
 Screenshots of commands run and timing report generated
 
 ![Screenshot from 2024-03-26 12-55-00](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_4/images/openroad_post_cts_timing.png)
-![Screenshot from 2024-03-26 12-55-00](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_4/images/openroad_post_cts_synthesis_timing2.png)
+![Screenshot from 2024-03-26 12-55-01](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_4/images/openroad_post_synthesis_timing2.png)
 
 
-#### 13. Explore post-CTS OpenROAD timing analysis by removing 'sky130_fd_sc_hd__clkbuf_1' cell from clock buffer list variable 'CTS_CLK_BUFFER_LIST'.
+#### 13. Explore post-CTS OpenROAD timing analysis by removing 'sky130_fd_sc_hd__clkbuf_2' cell from clock buffer list variable 'CTS_CLK_BUFFER_LIST'.
 
 Commands to be run in OpenLANE flow to do OpenROAD timing analysis after changing `CTS_CLK_BUFFER_LIST`
 
@@ -665,7 +665,7 @@ echo $::env(CTS_CLK_BUFFER_LIST)
 echo $::env(CURRENT_DEF)
 
 # Setting def as placement def
-set ::env(CURRENT_DEF) /openLANE_flow/designs/picorv32a/runs/24-03_10-03/results/placement/picorv32a.placement.def
+set ::env(CURRENT_DEF) /OpenLane/designs/picorv32a/runs/RUN_2025.12.26_13.02.52/results/placement/picorv32a.def
 
 # Run CTS again
 run_cts
@@ -677,10 +677,10 @@ echo $::env(CTS_CLK_BUFFER_LIST)
 openroad
 
 # Reading lef file
-read_lef /openLANE_flow/designs/picorv32a/runs/24-03_10-03/tmp/merged.lef
+read_lef /OpenLane/designs/picorv32a/runs/RUN_2025.12.26_13.02.52/tmp/merged.lef
 
 # Reading def file
-read_def /openLANE_flow/designs/picorv32a/runs/24-03_10-03/results/cts/picorv32a.cts.def
+read_def /OpenLane/designs/picorv32a/runs/RUN_2025.12.26_13.02.52/results/cts/picorv32a.cts.def
 
 # Creating an OpenROAD database to work with
 write_db pico_cts1.db
@@ -689,7 +689,7 @@ write_db pico_cts1.db
 read_db pico_cts.db
 
 # Read netlist post CTS
-read_verilog /openLANE_flow/designs/picorv32a/runs/24-03_10-03/results/synthesis/picorv32a.synthesis_cts.v
+read_verilog /OpenLane/designs/picorv32a/runs/RUN_2025.12.26_13.02.52/results/synthesis/picorv32a.synthesis_cts.v
 
 # Read library for design
 read_liberty $::env(LIB_SYNTH_COMPLETE)
@@ -698,7 +698,7 @@ read_liberty $::env(LIB_SYNTH_COMPLETE)
 link_design picorv32a
 
 # Read in the custom sdc we created
-read_sdc /openLANE_flow/designs/picorv32a/src/my_base.sdc
+read_sdc /Openlane/designs/picorv32a/src/my_base.sdc
 
 # Setting all cloks as propagated clocks
 set_propagated_clock [all_clocks]
