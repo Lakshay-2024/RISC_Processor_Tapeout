@@ -197,7 +197,7 @@ Commands to view and change parameters to improve timing and run synthesis
 
 ```tcl
 # Now once again we have to prep design so as to update variables
-prep -design picorv32a -tag 24-03_10-03 -overwrite
+prep -design picorv32a 
 
 # Addiitional commands to include newly added lef to openlane flow merged.lef
 set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
@@ -432,7 +432,7 @@ Result - slack reduced
 
 OR gate of drive strength 2 driving OA gate has more delay
 
-![Screenshot from 2024-03-26 10-32-27](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/4185dc98-a065-49d3-a92f-fb4b02f23ee5)
+![Screenshot from 2024-03-26 10-32-27](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_4/images/p8.png)
 
 Commands to perform analysis and optimize timing by replacing with OR gate of drive strength 4
 
@@ -449,8 +449,8 @@ report_checks -fields {net cap slew input_pins} -digits 4
 
 Result - slack reduced
 
-![Screenshot from 2024-03-26 10-36-59](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/be71b3a4-efe1-4239-be5a-28ccebd2b7f4)
-![Screenshot from 2024-03-26 10-37-14](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/2ae759b3-f9a7-478f-a34a-3f8706347eca)
+![Screenshot from 2024-03-26 10-36-59](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_4/images/p9.png)
+
 
 Commands to verify instance `_14506_`  is replaced with `sky130_fd_sc_hd__or4_4`
 
@@ -461,7 +461,7 @@ report_checks -from _29043_ -to _30440_ -through _14506_
 
 Screenshot of replaced instance
 
-![Screenshot from 2024-03-26 10-43-04](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/970b3cb7-fe10-4b5e-99c9-85059714f8f2)
+![Screenshot from 2024-03-26 10-43-04](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_4/images/p10.png)
 
 *We started ECO fixes at wns -23.9000 and now we stand at wns -22.6173 we reduced around 1.2827 ns of violation*
 
@@ -473,7 +473,7 @@ Commands to make copy of netlist
 
 ```bash
 # Change from home directory to synthesis results directory
-cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/25-03_18-52/results/synthesis/
+cd/OpenLane/designs/picorv32a/runs/RUN_2025.12.26_13.02.52/results/synthesis/
 
 # List contents of the directory
 ls
@@ -485,9 +485,6 @@ cp picorv32a.synthesis.v picorv32a.synthesis_old.v
 ls
 ```
 
-Screenshot of commands run
-
-![Screenshot from 2024-03-26 10-54-15](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/90c90853-0664-44d7-8ff2-573621935870)
 
 Commands to write verilog
 
@@ -496,7 +493,7 @@ Commands to write verilog
 help write_verilog
 
 # Overwriting current synthesis netlist
-write_verilog /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/25-03_18-52/results/synthesis/picorv32a.synthesis.v
+write_verilog /OpenLane/designs/picorv32a/runs/RUN_2025.12.26_13.02.52/results/synthesis/picorv32a.synthesis.v
 
 # Exit from OpenSTA since timing analysis is done
 exit
@@ -504,11 +501,10 @@ exit
 
 Screenshot of commands run
 
-![Screenshot from 2024-03-26 11-02-19](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/c6c8ce7f-5219-41bc-a5a8-47b0e1c62c7c)
-
+![Screenshot from 2024-03-26 11-02-19](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_4/images/p11.png
 Verified that the netlist is overwritten by checking that instance `_14506_`  is replaced with `sky130_fd_sc_hd__or4_4`
 
-![Screenshot from 2024-03-26 11-01-25](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/1ddb66da-64cb-426d-8d78-30370c63dacb)
+![Screenshot from 2024-03-26 11-01-25](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_4/images/p12.png)
 
 Since we confirmed that netlist is replaced and will be loaded in PnR but since we want to follow up on the earlier 0 violation design we are continuing with the clean design to further stages
 
