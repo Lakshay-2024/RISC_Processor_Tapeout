@@ -32,7 +32,7 @@ This repository documents my **daywise progress** with tasks and assignments ins
 
 ### Key Learnings from Day 3
 - Generate **spice** file for a custom inverter design in magic.
-- **Characterise** the inverter cell using spice simulations.
+- **Characterise** the inverter cell using spice simulations in ngspice.
 - Analyse and correct **DRC rules** in varous designs in magic editor. 
 
 ### Key Learnings from Day 4
