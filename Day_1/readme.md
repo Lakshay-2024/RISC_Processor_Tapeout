@@ -2,10 +2,9 @@
 
 ## Theory
 
-<details>
-  <summary>
-Expand or Collapse
-  </summary>
+
+  
+
 
 #### Package
 
