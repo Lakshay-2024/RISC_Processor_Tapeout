@@ -15,7 +15,7 @@ This repository documents my **daywise progress** with tasks and assignments ins
 |------|-------------|
 | **DAY 1** |  [Physical Design Flow and Synthesis of RISCV core](Day_1/readme.md) | 
 | **DAY 2** |  [Floorplanning and Placement](Day_2/readme.md) |
-| **DAY 3** |  [SoC Fundamentals and Modelling](Day_3/readme.md)
+| **DAY 3** |  [Designing library cell and Cell Characterisation](Day_3/readme.md)
 | **DAY 4** |  [Post Synthesis Simulation and STA Analysis](Day_4/readme.md)
 | **DAY 5** |  [CMOS SPICE Simulation](Day_5/readme.md)
 
@@ -30,10 +30,10 @@ This repository documents my **daywise progress** with tasks and assignments ins
 - Run floorplan for the RISCV core , calculate **die area** and understand the floorplan layout.  
 - Run placement for the design and understand various **library cells** in the placed design.
 
-### Key Learnings from Week 2
-- Fundamental understanding of **SoC Designing** and Structure.
-- RTL simulation of BabySoC using **gtkwave** and **iverilog**.
-- Synthesis and Post synthesis simulation of the SoC using "**OpenLane**" toolchain.
+### Key Learnings from Day 3
+- Generated **spice** file for a custom inverter design in magic.
+- **Characterised** the inverter cell using spice simulations.
+- Analysed and corrected **DRC rules** in varous designs in magic editor. 
 
 ### Key Learnings from Week 3
 - **Post Synthesis Simulation** Of BabySoC and waveform analysis.
