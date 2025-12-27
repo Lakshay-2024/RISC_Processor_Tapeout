@@ -1,6 +1,6 @@
 # Design library cell using Magic Layout and ngspice characterization
 
-## Theory
+
 
 ## Implementation
 
@@ -23,9 +23,6 @@ git clone https://github.com/nickson-jose/vsdstdcelldesign
 
 # Change into repository directory
 cd vsdstdcelldesign
-
-# Copy magic tech file to the repo directory for easy access
-cp /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech .
 
 # Check contents whether everything is present
 ls
