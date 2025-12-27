@@ -13,17 +13,17 @@ This repository documents my **daywise progress** with tasks and assignments ins
 
 | Task | Description | 
 |------|-------------|
-| **DAY 1** |  [Tools Installation](Day_1/readme.md) | 
+| **DAY 1** |  [Physical Design Flow and Synthesis of RISCV core](Day_1/readme.md) | 
 | **DAY 2** |  [Synthesis & GLS](Day_2/readme.md) |
 | **DAY 3** |  [SoC Fundamentals and Modelling](Day_3/readme.md)
 | **DAY 4** |  [Post Synthesis Simulation and STA Analysis](Day_4/readme.md)
 | **DAY 5** |  [CMOS SPICE Simulation](Day_5/readme.md)
 
 
-###  Key Learnings from Week 0
-- Installed and verified **open-source EDA tools** successfully.  
-- Learned about **basic environment setup** for RTL design and synthesis.  
-- Prepared the system for upcoming **RTL → GDSII flow experiments**.
+###  Key Learnings from Day 1
+- Overview of entire **Physical Design Flow** including Synthesis, Floorplan, Placement, Clock Tree Synthesis , Routing and Signoff .  
+- Synthesis of RISCV core using **Yosys** synthesiser in the Openlane .  
+- Calculation of **Flop Ratio** in the synthesised netlist.
 
 ###  Key Learnings from Week 1
 - Verilog **RTL design** and simulation.  
