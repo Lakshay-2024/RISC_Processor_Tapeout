@@ -3,7 +3,7 @@
 
 This repository contains all the work I have done in the **Physical Design** workshop using **Openalne and Google skywater 130nm pdk** offered by **VSD VLSI** starting from December 19/2025 - December 28/2025.
 
-This repository documents my **daywise progress** with tasks and assignments inside each day;s directory.  
+This repository documents my **daywise progress** with tasks and assignments inside each day's directory.  
 
 
 
@@ -13,11 +13,11 @@ This repository documents my **daywise progress** with tasks and assignments ins
 
 | Task | Description | 
 |------|-------------|
-| **DAY 1** |  [Tools Installation](Week_0/Week-0.md) | 
-| **DAY 2** |  [Synthesis & GLS](/) |
-| **DAY 3** |  [SoC Fundamentals and Modelling](Week_2/)
-| **DAY 4** |  [Post Synthesis Simulation and STA Analysis](Week_3/)
-| **DAY 5** |  [CMOS SPICE Simulation](Week_4/)
+| **DAY 1** |  [Tools Installation](Day_1/readme.md) | 
+| **DAY 2** |  [Synthesis & GLS](Day_2/readme.md) |
+| **DAY 3** |  [SoC Fundamentals and Modelling](Day_3/readme.md)
+| **DAY 4** |  [Post Synthesis Simulation and STA Analysis](Day_4/readme.md)
+| **DAY 5** |  [CMOS SPICE Simulation](Day_5/readme.md)
 
 
 ###  Key Learnings from Week 0
