@@ -161,7 +161,6 @@ exit
 
 Screenshots Timing report generated
 
-![Screenshot from 2024-03-26 23-16-16](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/72ef3e8d-7ca2-4b60-89ea-de053f9c2902)
-![Screenshot from 2024-03-26 23-17-09](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/5cac9ce5-420a-4eaa-b5f4-09286701e550)
-![Screenshot from 2024-03-26 23-17-32](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/7d809f14-66b6-4dd6-8161-2ad8371cfaf9)
-![Screenshot from 2024-03-26 23-17-56](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd/assets/63997454/64ccb1d8-74aa-42b0-88d4-a0f9588d2ca2)
+![Screenshot from 2024-03-26 23-16-16](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_5/images/p14.png)
+![Screenshot from 2024-03-26 23-17-09](https://github.com/Lakshay-2024/Digital_VLSI_RISC_Tapeout/blob/main/Day_5/images/p13.png)
+
