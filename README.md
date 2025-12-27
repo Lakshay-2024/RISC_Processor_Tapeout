@@ -16,7 +16,7 @@ This repository documents my **daywise progress** with tasks and assignments ins
 | **DAY 1** |  [Physical Design Flow and Synthesis of RISCV core](Day_1/readme.md) | 
 | **DAY 2** |  [Floorplanning and Placement](Day_2/readme.md) |
 | **DAY 3** |  [Designing library cell and Cell Characterisation](Day_3/readme.md)
-| **DAY 4** |  [Post Synthesis Simulation and STA Analysis](Day_4/readme.md)
+| **DAY 4** |  [STA Analysis and Clock Tree Synthesis](Day_4/readme.md)
 | **DAY 5** |  [CMOS SPICE Simulation](Day_5/readme.md)
 
 
@@ -35,10 +35,11 @@ This repository documents my **daywise progress** with tasks and assignments ins
 - **Characterised** the inverter cell using spice simulations.
 - Analysed and corrected **DRC rules** in varous designs in magic editor. 
 
-### Key Learnings from Week 3
-- **Post Synthesis Simulation** Of BabySoC and waveform analysis.
-- Installed **OpenSTA** for timing analysis.
-- **STA analysis** of the synthesised BabySoC design with help of **Tcl** scripts.
+### Key Learnings from Day 4
+- Added the **custom inverter** in the RISCV core design.
+- Analysed the **STA Report** of the updated synthesised netlist.
+- Explored and Implemented **strategies** to fix timing errors.
+- Ran **Clock Tree Synthesis** of the updated netlist and analysed the report
 
 ### Key Learnings from Week 4
 - Introduction to **SPICE** and CMOS Structure.
